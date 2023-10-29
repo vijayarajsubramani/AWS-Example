@@ -4,8 +4,8 @@ import stream from 'stream'
 
 AWS.config.update({
   region: 'us-west-2',
-  accessKeyId: 'AKIATDDDCUVTW5WFL5NW',
-  secretAccessKey: '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',
+  accessKeyId: '',
+  secretAccessKey: '',
 })
 
 const s3 = new AWS.S3();
